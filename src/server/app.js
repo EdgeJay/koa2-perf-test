@@ -1,12 +1,11 @@
 import Koa from 'koa';
+import initRoutes from './middlewares/routes';
 
 const debug = require('debug')('server');
 
 const app = new Koa();
 
-app.use(async ctx => {
-  ctx.body = 'Hello world!';
-});
+initRoutes(app);
 
 app.listen(process.env.NODE_PORT, () => {
   debug(`Server running at port ${process.env.NODE_PORT}`);
