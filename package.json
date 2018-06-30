@@ -4,6 +4,7 @@
   "description": "Koa2 + koa-router performance tests",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write \"./index.js\" \"./src/[!v]*/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,5 +28,8 @@
     "dotenv": "^6.0.0",
     "koa": "^2.5.1",
     "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
   }
 }
