@@ -11,6 +11,10 @@
     "node.js",
     "autocannon"
   ],
+  "homepage": "https://github.com/EdgeJay/koa2-perf-test#readme",
+  "bugs": {
+    "url": "https://github.com/EdgeJay/koa2-perf-test/issues"
+  },
   "author": "Wu Huijie",
   "license": "ISC",
   "engines": {
