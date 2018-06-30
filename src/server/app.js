@@ -7,5 +7,6 @@ app.use(async ctx => {
 });
 
 app.listen(process.env.NODE_PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Server running at port ${process.env.NODE_PORT}`);
 });
