@@ -1,5 +1,7 @@
 import Koa from 'koa';
 
+const debug = require('debug')('server');
+
 const app = new Koa();
 
 app.use(async ctx => {
@@ -7,6 +9,5 @@ app.use(async ctx => {
 });
 
 app.listen(process.env.NODE_PORT, () => {
-  // eslint-disable-next-line no-console
-  console.log(`Server running at port ${process.env.NODE_PORT}`);
+  debug(`Server running at port ${process.env.NODE_PORT}`);
 });
