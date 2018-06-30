@@ -19,7 +19,7 @@
   "author": "Wu Huijie",
   "license": "ISC",
   "engines": {
-    "node": ">=8.9.3"
+    "node": ">=8.11.0"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -30,6 +30,10 @@
     "koa-router": "^7.4.0"
   },
   "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.1",
     "prettier": "^1.13.7"
   }
 }
