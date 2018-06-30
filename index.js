@@ -1,6 +1,6 @@
-const dotenv = require("dotenv");
+const dotenv = require('dotenv');
 dotenv.config();
 
-require("babel-register");
+require('babel-register');
 
-require("./src/server/app.js");
+require('./src/server/app.js');
